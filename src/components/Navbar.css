@@ -1,0 +1,80 @@
+/* Navbar.css */
+
+/* Increase the overall size of the navbar */
+.navbar {
+    padding: 0.5rem 0rem; /* Increase padding for a larger navbar */
+  }
+  
+  /* Style the navbar brand */
+  .navbar-brand {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem; /* Increase font size for the brand */
+    font-weight: bold;
+  }
+  
+  /* Style the navbar links */
+  .nav-link {
+    color: #fff !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2rem; /* Increase font size for links */
+    margin-right: 1.5rem; /* Increase margin between links */
+  }
+  
+  .nav-link:hover {
+    color: rgb(65, 90, 119) !important;
+  }
+  
+  .nav-link.active {
+    color: rgb(65, 90, 119)  !important;
+    font-weight: bold;
+    border-bottom: 2px solid rgb(65, 90, 119) ;
+  }
+  
+  /* Style the navbar-toggler */
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"><path stroke="rgba%28255, 255, 255, 0.5%29" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/></svg>');
+  }
+  
+  /* Style the form buttons */
+  .btn-primary {
+    background-color: rgb(65, 90, 119) ;
+    border: none;
+    color: #000;
+    font-size: 1.2rem; /* Increase font size for buttons */
+    padding: 0.5rem 1.5rem; /* Increase padding for buttons */
+  }
+  
+  .btn-primary:hover {
+    background-color:rgb(65, 90, 119) ;
+  }
+  
+  .btn-primary:active {
+    background-color: rgb(65, 90, 119) ;
+  }
+  
+  /* Style the logout button */
+  .btn-primary.logout-button {
+    background-color: #ff6666;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem; /* Increase font size for logout button */
+    padding: 0.5rem 1.5rem; /* Increase padding for logout button */
+  }
+  
+  .btn-primary.logout-button:hover {
+    background-color: #e60000;
+  }
+  
+  .btn-primary.logout-button:active {
+    background-color: #cc0000;
+  }
+  
+  /* Style for container */
+  .container-fluid {
+    padding: 0 2rem;
+  }
+  

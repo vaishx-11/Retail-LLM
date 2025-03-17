@@ -1,0 +1,73 @@
+/* About.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section-about {
+    text-align: center;
+    padding: 20px 20px; /* Reduced padding */
+    background-color: rgb(119, 141, 169);
+}
+
+.section-about h1 {
+    font-size: 36px;
+    margin-bottom: 15px; /* Reduced margin */
+    color: #333;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.section-about p {
+    font-size: 18px;
+    margin-bottom: 15px; /* Reduced margin */
+    color: rgb(27, 38, 59);
+    line-height: 1.6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.section-about .btn-signup {
+    background-color: #4A90E2;
+    color: #fff;
+    padding: 10px 20px; /* Reduced padding */
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.section-about .btn-signup:hover {
+    background-color: #357ABD;
+}
+
+.about-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px; /* Reduced margin */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .section-about h1 {
+        font-size: 28px;
+    }
+
+    .section-about p {
+        font-size: 16px;
+    }
+
+    .section-about .btn-signup {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}

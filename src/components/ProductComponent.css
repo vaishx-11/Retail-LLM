@@ -1,0 +1,76 @@
+.AppContainer {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    min-height: 100vh;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .CategoryContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+    width: 100%;
+  }
+  
+  .CategoryCard {
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .CategoryCard:hover {
+    transform: translateY(-5px);
+  }
+  
+  .CategoryTitle {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .ProductContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .BackButton {
+    align-self: flex-start;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .BackButton:hover {
+    background: #555;
+  }
+  
+  .ProductTitle {
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .ProductsList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  
+  .ProductItem {
+    font-size: 0.9rem;
+    color: #666;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ddd;
+  }

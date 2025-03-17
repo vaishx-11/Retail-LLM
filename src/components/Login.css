@@ -1,0 +1,392 @@
+/* Login.css
+
+/* body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+  }
+   */
+   body {
+    background-color: rgb(13, 27, 42);
+    color: rgb(65, 90, 119);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  /* .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+   */
+   .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    text-align: center;
+    border: 2px solid rgba(18, 69, 89, 0); /* Transparent border */
+    border-radius: 10px;
+    padding: 2rem;
+    background-color: rgba(65, 90, 119, 0); /* Transparent background */
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .login-title {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    /* color: #00adb5; */
+    color: rgb(174, 195, 176);
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+    width: 100%;
+    /* max-width: 400px; */
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    /* color: #00adb5; */
+    color: #fff;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 0.5rem;
+    /* border: 1px solid #00adb5; */
+    border: 1px solid rgba(18, 69, 89, 0); /* Transparent border */
+    border-radius: 5px;
+    /* background-color: #1e1e1e;
+    color: #ffffff; */
+    background-color: #fff; /* Ensure background color is white */
+    color: #000;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-input:focus {
+    /* border-color: #007b83; */
+    border-color: rgb(89, 131, 146);
+    outline: none;
+  }
+  
+  .form-text {
+    font-size: 0.9rem;
+    /* color: #b3b3b3; */
+    color: rgb(89, 131, 146);
+  }
+  
+  .form-button {
+    /* background-color: #00adb5;
+    color: #ffffff; */
+    background-color: rgb(18, 69, 89);
+  color: rgb(89, 131, 146);
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    outline: none;
+    position: relative;
+  }
+  
+  .form-button:hover {
+    background-color: rgb(89, 131, 146);
+    /* background-color: #007b83; */
+  }
+  
+  .form-button:active {
+    /* background-color: #005f60; */
+    background-color: rgb(1, 22, 30);
+  }
+  
+  .form-button::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: calc(100% + 20px);
+    height: calc(100% + 20px);
+    /* border: 2px solid #00adb5; */
+    border: 2px solid rgba(18, 69, 89, 0); /* Transparent border */
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  
+  .form-button:active::before {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  
+  .form-button:focus {
+    outline: none;
+  }
+  
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+  }
+}
+  .form-button {
+    animation: float 3s ease-in-out infinite;
+  }
+  
+  .form-button:hover {
+    transform: scale(1.05);
+  }
+   */
+
+   /* body {
+  background-color: 239, 246, 224;
+  color: rgb(35, 79, 95);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.login-title {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: rgb(174, 195, 176);
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+  width: 100%;
+  max-width: 400px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  color: rgb(18, 69, 89);
+}
+
+.form-input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid rgb(18, 69, 89);
+  border-radius: 5px;
+  background-color: rgb(1, 22, 30);
+  color: rgb(89, 131, 146);
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.form-input:focus {
+  border-color: rgb(89, 131, 146);
+  outline: none;
+}
+
+.form-text {
+  font-size: 0.9rem;
+  color: rgb(89, 131, 146);
+}
+
+.form-button {
+  background-color: rgb(18, 69, 89);
+  color: rgb(89, 131, 146);
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  outline: none;
+  position: relative;
+}
+
+.form-button:hover {
+  background-color: rgb(89, 131, 146);
+}
+
+.form-button:active {
+  background-color: rgb(1, 22, 30);
+}
+
+.form-button::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: calc(100% + 20px);
+  height: calc(100% + 20px);
+  border: 2px solid rgb(18, 69, 89);
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.form-button:active::before {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.form-button:focus {
+  outline: none;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.form-button {
+  animation: float 3s ease-in-out infinite;
+}
+
+.form-button:hover {
+  transform: scale(1.05);
+} */
+
+body {
+  background-color: rgb(13, 27, 42);
+  color: rgb(65, 90, 119);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  text-align: center;
+  border: 2px solid rgba(18, 69, 89, 0); /* Transparent border */
+  border-radius: 10px;
+  padding: 2rem;
+  background-color: rgba(65, 90, 119, 0); /* Transparent background */
+  max-width: 400px;
+  margin: auto;
+}
+
+.login-title {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: rgb(174, 195, 176);
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.form-input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid rgba(18, 69, 89, 0); /* Transparent border */
+  border-radius: 5px;
+  background-color: #fff; /* Ensure background color is white */
+  color: #000; /* Set input text color to black */
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.form-input:focus {
+  border-color: rgb(89, 131, 146);
+  outline: none;
+}
+
+.form-text {
+  font-size: 0.9rem;
+  color: rgb(89, 131, 146);
+}
+
+.form-button {
+  background-color: rgb(18, 69, 89);
+  color: rgb(89, 131, 146);
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  outline: none;
+  position: relative;
+}
+
+.form-button:hover {
+  background-color: rgb(89, 131, 146);
+}
+
+.form-button:active {
+  background-color: rgb(1, 22, 30);
+}
+
+.form-button::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: calc(100% + 20px);
+  height: calc(100% + 20px);
+  border: 2px solid rgba(18, 69, 89, 0); /* Transparent border */
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.form-button:active::before {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.form-button:focus {
+  outline: none;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.form-button {
+  animation: float 3s ease-in-out infinite;
+}
+
+.form-button:hover {
+  transform: scale(1.05);
+}

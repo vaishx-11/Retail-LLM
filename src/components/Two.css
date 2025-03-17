@@ -1,0 +1,167 @@
+/* Branches.css */
+
+@keyframes fadeInSlideDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+}
+
+.Branches-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 2rem;
+  background: linear-gradient(135deg, #1e1e1e 0%, #121212 100%);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  animation: fadeInSlideDown 0.5s ease-out;
+}
+
+.Branches-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.Branches-navbar-brand {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  /* color: #00adb5; */
+  color: rgb(27, 38, 59);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 0.5rem;
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.Branches-navbar-brand:hover, .Branches-navbar-brand.active {
+  color: #007b83;
+  border-bottom: 2px solid rgb(27, 38, 59);
+
+  /* border-bottom: 2px solid #00adb5; */
+}
+
+.Branches-navbar-toggler {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.Branches-navbar-toggler-icon {
+  width: 25px;
+  height: 3px;
+  background-color: rgb(27, 38, 59);
+  display: block;
+  margin: 5px 0;
+}
+
+
+/* .Branches-navbar-toggler-icon {
+  width: 25px;
+  height: 3px;
+  background-color: #00adb5;
+  display: block;
+  margin: 5px 0;
+} */
+
+.Branches-navbar-collapse {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.Branches-navbar-nav {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.Branches-nav-item {
+  margin-left: 1.5rem;
+}
+
+.Branches-nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  border-bottom: 2px solid transparent;
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+/* .Branches-nav-link:hover, .Branches-nav-link.active {
+  color: #00adb5;
+  border-bottom: 2px solid #00adb5;
+} */
+.Branches-nav-link:hover, .Branches-nav-link.active {
+  color: rgb(27, 38, 59);
+  border-bottom: 2px solid rgb(27, 38, 59);
+}
+
+
+.Branches-nav-link.disabled {
+  color: #b3b3b3;
+  cursor: not-allowed;
+}
+
+.Branches-content {
+  padding: 2rem;
+  text-align: center;
+}
+
+.Branches-button {
+  background-color: rgb(27, 38, 59);
+  /* background-color: #00adb5; */
+  color: #ffffff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  outline: none;
+  margin-bottom: 1.5rem;
+}
+
+.Branches-button:hover {
+  background-color: #007b83;
+  transform: scale(1.05);
+}
+
+.Branches-button:active {
+  background-color: #005f60;
+  transform: scale(0.98);
+}
+
+.Branches-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  /* color: #00adb5; */
+  color: rgb(27, 38, 59);
+}
+
+.Branches-image-container {
+  margin-bottom: 1.5rem;
+}
+
+.Branches-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,25 @@
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: gray; /* Gray background */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 10px 0;
+    display: none; /* Initially hidden */
+  }
+  
+  .footer.visible {
+    display: block; /* Show footer when visible class is added */
+  }
+  
+  .footer .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .footer .text-muted {
+    color: #fff; /* White text for muted content */
+  }
+  

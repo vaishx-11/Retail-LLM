@@ -1,0 +1,500 @@
+/* Visualizations.css
+
+@keyframes fadeInSlideDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+}
+
+.Visualizations-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 2rem;
+  background: linear-gradient(135deg, #1e1e1e 0%, #121212 100%);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  animation: fadeInSlideDown 0.5s ease-out;
+}
+
+.Visualizations-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.Visualizations-navbar-brand {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #00adb5;
+  text-decoration: none;
+  border-bottom: 2px solid #00adb5;
+  padding-bottom: 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.Visualizations-navbar-brand:hover {
+  color: #007b83;
+}
+
+.Visualizations-navbar-toggler {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.Visualizations-navbar-toggler-icon {
+  width: 25px;
+  height: 3px;
+  background-color: #00adb5;
+  display: block;
+  margin: 5px 0;
+}
+
+.Visualizations-navbar-collapse {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.Visualizations-navbar-nav {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.Visualizations-nav-item {
+  margin-left: 1.5rem;
+}
+
+.Visualizations-nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.Visualizations-nav-link:hover {
+  color: #00adb5;
+}
+
+.Visualizations-nav-link.active {
+  color: #00adb5;
+  border-bottom: 2px solid #00adb5;
+  padding-bottom: 0.5rem;
+}
+
+.Visualizations-nav-link.disabled {
+  color: #b3b3b3;
+  cursor: not-allowed;
+}
+
+.Visualizations-content {
+  padding: 2rem;
+  text-align: center;
+}
+
+.Visualizations-button {
+  background-color: #00adb5;
+  color: #ffffff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  outline: none;
+  margin-bottom: 1.5rem;
+}
+
+.Visualizations-button:hover {
+  background-color: #007b83;
+  transform: scale(1.05);
+}
+
+.Visualizations-button:active {
+  background-color: #005f60;
+  transform: scale(0.98);
+}
+
+.Visualizations-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #00adb5;
+}
+
+.Visualizations-image-container {
+  margin-bottom: 1.5rem;
+}
+
+.Visualizations-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+} */
+/* Visualizations.css
+
+@keyframes fadeInSlideDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+}
+
+.Visualizations-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 2rem;
+  background: linear-gradient(135deg, #1e1e1e 0%, #121212 100%);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  animation: fadeInSlideDown 0.5s ease-out;
+}
+
+.Visualizations-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.Visualizations-navbar-brand {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: rgb(27, 38, 59);
+  text-decoration: none;
+  border-bottom: 2px solid rgb(27, 38, 59);
+  padding-bottom: 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.Visualizations-navbar-brand:hover {
+  color: #007b83;
+}
+
+.Visualizations-navbar-toggler {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.Visualizations-navbar-toggler-icon {
+  width: 25px;
+  height: 3px;
+  background-color: rgb(27, 38, 59);
+  display: block;
+  margin: 5px 0;
+}
+
+.Visualizations-navbar-collapse {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.Visualizations-navbar-nav {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+.Visualizations-nav-item {
+  margin-left: 1.5rem;
+}
+
+.Visualizations-nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.Visualizations-nav-link:hover {
+  color: rgb(27, 38, 59);
+}
+
+.Visualizations-nav-link.active {
+  color: rgb(27, 38, 59);
+  border-bottom: 2px solid rgb(27, 38, 59);
+  padding-bottom: 0.5rem;
+}
+
+.Visualizations-nav-link.disabled {
+  color: #b3b3b3;
+  cursor: not-allowed;
+}
+
+.Visualizations-content {
+  padding: 2rem;
+  text-align: center;
+}
+
+.Visualizations-button {
+  background-color: rgb(27, 38, 59);
+  color: #ffffff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  outline: none;
+  margin-bottom: 1.5rem;
+}
+
+.Visualizations-button:hover {
+  background-color: #007b83;
+  transform: scale(1.05);
+}
+
+.Visualizations-button:active {
+  background-color: #005f60;
+  transform: scale(0.98);
+}
+
+.Visualizations-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: rgb(27, 38, 59);
+}
+
+.Visualizations-image-container {
+  margin-bottom: 1.5rem;
+}
+
+.Visualizations-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+} */
+@keyframes fadeInSlideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url('6057485.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh; /* Cover the full viewport height */
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.Visualizations-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 2rem;
+  background: linear-gradient(135deg, rgb(40, 54, 61) 0%, rgb(70, 114, 137) 100%);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  animation: fadeInSlideDown 0.5s ease-out;
+}
+
+.Visualizations-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.Visualizations-navbar-brand {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: rgb(237, 240, 246);
+  text-decoration: none;
+  border-bottom: 2px solid rgb(27, 38, 59);
+  padding-bottom: 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.Visualizations-navbar-brand:hover {
+  color: rgb(237, 240, 246);
+}
+
+.Visualizations-navbar-toggler {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.Visualizations-navbar-toggler-icon {
+  width: 25px;
+  height: 3px;
+  background-color: rgb(27, 38, 59);
+  display: block;
+  margin: 5px 0;
+}
+
+.Visualizations-navbar-collapse {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.Visualizations-navbar-nav {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Visualizations-nav-item {
+  margin-left: 1.5rem;
+}
+
+.Visualizations-nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.Visualizations-nav-link:hover {
+  color: rgb(27, 38, 59);
+}
+
+.Visualizations-nav-link.active {
+  color: rgb(27, 38, 59);
+  border-bottom: 2px solid rgb(27, 38, 59);
+  padding-bottom: 0.5rem;
+}
+
+.Visualizations-nav-link.disabled {
+  color: #b3b3b3;
+  cursor: not-allowed;
+}
+
+.Visualizations-content {
+  padding: 2rem;
+  text-align: center;
+}
+
+.Visualizations-button {
+  background-color: rgb(27, 38, 59);
+  color: #ffffff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  outline: none;
+  margin-bottom: 1.5rem;
+}
+
+.Visualizations-button:hover {
+  background-color: #007b83;
+  transform: scale(1.05);
+}
+
+.Visualizations-button:active {
+  background-color: #005f60;
+  transform: scale(0.98);
+}
+
+.Visualizations-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: rgb(27, 38, 59);
+}
+
+.Visualizations-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.Visualizations-image-container {
+  cursor: pointer;
+}
+
+.Visualizations-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.Visualizations-image.active {
+  grid-column: span 2;
+  grid-row: span 2;
+  width: 100%;
+  height: 75vh;
+}
+
+.Visualizations-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.Visualizations-modal-content {
+  background-color: #121212;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.Visualizations-modal-image {
+  width: 75%;
+  height: auto;
+}

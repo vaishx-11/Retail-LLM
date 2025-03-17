@@ -1,0 +1,68 @@
+/* Alert.css */
+
+@keyframes fadeInSlideDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes flash {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+.alert {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 500px;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    animation: fadeInSlideDown 0.5s ease-out, flash 2s infinite;
+    z-index: 1000;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.alert-success {
+    background-color: #4caf50;
+    color: #ffffff;
+}
+
+.alert-danger {
+    background-color: #f44336;
+    color: #ffffff;
+}
+
+.alert-warning {
+    background-color: #ff9800;
+    color: #ffffff;
+}
+
+.alert-dismissible .btn-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.btn-close:hover {
+    color: #000000;
+}
